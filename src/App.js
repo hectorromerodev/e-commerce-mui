@@ -13,27 +13,28 @@ function App() {
   }, []);
  
   return (
-    <ThemeProvider theme={theme}>
-      <Container
-        maxWidth="xl"
-        sx={{
-          background: '#FFF',
-        }}
-      >
-        <Appbar />
-        {
-          // 1. Add app bar
-          // 2. Add Hero section
-          // 3. Add Promotion banner
-          // 4. Add Title
-          // 5. Add Products
-          // 6. Add Footer
-          // 7. Add Search Box
-          // 8. Add Drawer
-        }
-        <Button>Test</Button>
-      </Container>
-    </ThemeProvider>
+    <>
+      <ThemeProvider theme={theme}>
+        <Container
+          maxWidth="xl"
+          sx={{
+            background: '#FFF',
+          }}
+        >
+          <Appbar />
+          {
+            // 1. Add app bar
+            // 2. Add Hero section
+            // 3. Add Promotion banner
+            // 4. Add Title
+            // 5. Add Products
+            // 6. Add Footer
+            // 7. Add Search Box
+            // 8. Add Drawer
+          }
+        </Container>
+      </ThemeProvider>
+    </>
   );
 }
 
