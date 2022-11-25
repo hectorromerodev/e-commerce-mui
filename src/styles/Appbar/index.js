@@ -33,3 +33,24 @@ export const AppbarList = styled(List)(({type}) => {
     alignItems: 'center',
   }
 });
+
+// Action Icon Container
+export const ActionIconsContainerDesktop = styled(Box)(() => {
+  return {
+    flexGrow: '0',
+  }
+});
+
+export const ActionIconsContainerMobile = styled(Box)(() => {
+  return { 
+    display: 'flex',
+    background: Colors.shaft,
+    position: 'fixed',
+    bottom: '0',
+    left: '0',
+    width: '100%',
+    alignItems: 'center',
+    zIndex: '99',
+    borderTop: `1px solid ${Colors.border}`,
+  }
+});
